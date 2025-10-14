@@ -11,7 +11,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ progress, reset }) => {
     return (
         <div className="w-full h-1.5 bg-gray-700 rounded-full overflow-hidden">
             <div
-                className={`h-full bg-white ${reset ? 'transition-none' : 'transition-all duration-[100ms]'}`}
+                className={`h-full bg-white ${reset ? 'transition-none' : 'transition-all duration-100'}`}
                 style={{ width: `${progress}%` }}
             ></div>
         </div>
