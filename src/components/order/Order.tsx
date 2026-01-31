@@ -47,7 +47,7 @@ const Order = () => {
                                 </Link>
                             </li>*/}
                             <li className={`mr-[40px] mb-[50px] max-2xl:mr-[30px] max-2xl:mb-[30px] max-sm:mr-[20px] max-sm:mb-[20px] max-sm:w-auto`}>
-                                <Link rel="noopener noreferrer" target={`_blank`} href="https://t.me/tvoi_dvigatel"
+                                <Link rel="noopener noreferrer" target={`_blank`} href="https://t.me/CEO_LVGroup"
                                       className={`touch-manipulation text-orderDescrSize leading-orderDescrLeading flex`}>
                                     <svg className="w-6 h-6 text-gray-800 dark:text-white mr-orderIconMargin"
                                          aria-hidden="true" fill="currentColor"
