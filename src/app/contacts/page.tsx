@@ -44,10 +44,10 @@ const Page = () => {
                                 <div
                                     className={`whitespace-pre-wrap w-ContactsUroInfWidth mb-ContactsUroInfMarginBottom mt-ContactsUroInfMarginTop`}>
                                     <div className={`mb-[10px] text-[calc(14px + var(--responsive)*10)]`}>
-                                        ИП Леонов Б.С.
+                                        г. Хабаровск
                                     </div>
                                     <div>
-                                        ОГРНИП: 321272400043890
+                                        ул. Карла-Маркса д.166, оф. 2
                                     </div>
                                 </div>
                             </div>
