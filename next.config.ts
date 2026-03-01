@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
     experimental: {
         scrollRestoration: false,
     },
+    output: "standalone",
 };
 
 export default nextConfig;

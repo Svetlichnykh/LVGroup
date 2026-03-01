@@ -1,48 +1,27 @@
-# 1. Используем официальный образ Node.js
+# ---------- BUILD STAGE ----------
 FROM node:20-alpine AS builder
 
-# 2. Устанавливаем рабочую директорию
 WORKDIR /app
 
-# 3. Копируем package.json и package-lock.json
 COPY package.json package-lock.json ./
-
-# 4. Устанавливаем зависимости
 RUN npm ci
 
-# 5. Копируем остальные файлы проекта
 COPY . .
-
-# 6. Собираем проект
 RUN npm run build
 
-# 7. Production образ — минимальный
+
+# ---------- PRODUCTION STAGE ----------
 FROM node:20-alpine AS runner
 
-# 8. Устанавливаем рабочую директорию
 WORKDIR /app
 
-# 9. Только необходимые файлы
-COPY --from=builder /app/.next .next
-COPY --from=builder /app/public public
-COPY --from=builder /app/package.json package.json
-COPY --from=builder /app/next.config.ts next.config.ts
-COPY --from=builder /app/next-env.d.ts next-env.d.ts
-COPY --from=builder /app/tsconfig.json tsconfig.json
-COPY --from=builder /app/tailwind.config.ts tailwind.config.ts
-COPY --from=builder /app/postcss.config.mjs postcss.config.mjs
-COPY --from=builder /app/src src
-COPY --from=builder /app/robots.txt public/robots.txt
-COPY --from=builder /app/sitemap.xml public/sitemap.xml
-COPY --from=builder /app/.htaccess public/.htaccess
-COPY --from=builder /app/Ads.txt public/Ads.txt
+ENV NODE_ENV=production
 
+# копируем standalone сборку
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+COPY --from=builder /app/public ./public
 
-# 10. Устанавливаем только production-зависимости
-RUN npm install --omit=dev
-
-# 11. Указываем порт
 EXPOSE 3000
 
-# 12. Запуск приложения
-CMD ["npm", "run", "start"]
+CMD ["node", "server.js"]
