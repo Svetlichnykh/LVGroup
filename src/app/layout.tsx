@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'next-themes';
-import { Raleway } from 'next/font/google';
-import { Roboto } from 'next/font/google';
+import {Corporation, WithContext} from 'schema-dts'
+import localFont from 'next/font/local';
 import './globals.css';
 import Header from "@/widgets/header/Header";
 import Footer from "@/widgets/footer/Footer";
@@ -10,15 +10,38 @@ import { Suspense } from 'react';
 import Script from 'next/script';
 import YandexMetrika from "@/lib/YandexMetrika";
 import CookieConsentComponent from "@/widgets/CookieConsent/CookieConsent";
-const raleway = Raleway({
-    subsets: ['latin'],
-    weight: ['400', '700'],
+const raleway = localFont({
+    src: [
+        {
+            path: '../../public/fonts/raleway-400.woff2',
+            weight: '400',
+            style: 'normal',
+        },
+        {
+            path: '../../public/fonts/raleway-700.woff2',
+            weight: '700',
+            style: 'normal',
+        },
+    ],
+    variable: '--font-raleway',
+    display: 'swap',
 });
-import {Corporation, WithContext} from 'schema-dts'
 
-const roboto = Roboto({
-    subsets: ['latin'],
-    weight: ['400', '700'],
+const roboto = localFont({
+    src: [
+        {
+            path: '../../public/fonts/roboto-400.woff2',
+            weight: '400',
+            style: 'normal',
+        },
+        {
+            path: '../../public/fonts/roboto-700.woff2',
+            weight: '700',
+            style: 'normal',
+        },
+    ],
+    variable: '--font-roboto',
+    display: 'swap',
 });
 
 export const metadata = {
@@ -95,7 +118,7 @@ export default function RootLayout({
             <html lang="ru" suppressHydrationWarning>
             <head />
             <body
-                className={`${raleway.className} ${roboto.className} antialiased`} // Применяем шрифты
+                className={`${raleway.variable} ${roboto.variable} antialiased`}
             >
             <Script id="metrika-counter" strategy="afterInteractive">
                 {`(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
