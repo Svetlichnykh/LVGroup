@@ -14,7 +14,7 @@
     "preview": "GreenQzinPreview.png",
     "video": false,
     "previewTextWhite": true,
-    "tags": ["Удаленный call-центр", "Регламенты и стандарты"],
+    "tags": ["Удаленный Колл-центр", "Регламенты и стандарты"],
     "order": 20,
     "homepage": false,
     "href": "/green-qzin"
@@ -24,7 +24,7 @@
     "preview": "VanguardPreview.mp4",
     "video": true,
     "previewTextWhite": false,
-    "tags": ["Создание контента", "Видеосъемка", "SMM"],
+    "tags": ["Создание контента", "Видеосъемка", "СММ"],
     "order": 19,
     "homepage": false,
     "href": "/vanguard"
@@ -34,7 +34,7 @@
     "preview": "GrandSmetaPreview1.mp4",
     "video": true,
     "previewTextWhite": true,
-    "tags": ["Удаленный call-центр", "Регламенты и стандарты"],
+    "tags": ["Удаленный Колл-центр", "Регламенты и стандарты"],
     "order": 18,
     "homepage": false,
     "href": "/grand-smeta"
@@ -54,7 +54,7 @@
     "preview": "Taurer.png",
     "video": false,
     "previewTextWhite": true,
-    "tags": ["Создание/развитие отделов продаж", "Корпоративные тренинги и \"полевое\" обучение", "Разработка регламентов и стандартов", "Создание и развитие call-центра"],
+    "tags": ["Создание/развитие отделов продаж", "Корпоративные тренинги и \"полевое\" обучение", "Разработка регламентов и стандартов", "Создание и развитие Колл-центра"],
     "order": 16,
     "homepage": false,
     "href": "/taurer"
@@ -64,7 +64,7 @@
     "preview": "MurMuraciaPreview.jpg",
     "video": false,
     "previewTextWhite": false,
-    "tags": ["Создание контента", "Фотосессии", "Видеосъемка", "SMM"],
+    "tags": ["Создание контента", "Фотосессии", "Видеосъемка", "СММ"],
     "order": 15,
     "homepage": false,
     "href": "/MurMuracia"
@@ -84,7 +84,7 @@
     "preview": "LaundryCleanerPreview.mp4",
     "video": true,
     "previewTextWhite": true,
-    "tags": ["Удаленный call-центр", "Регламенты и стандарты"],
+    "tags": ["Удаленный Колл-центр", "Регламенты и стандарты"],
     "order": 13,
     "homepage": false,
     "href": "/laundry-cleaner"
@@ -164,7 +164,7 @@
     "preview": "LDPRPreview.mp4",
     "video": true,
     "previewTextWhite": true,
-    "tags": ["Удаленный call-центр", "Регламенты и стандарты"],
+    "tags": ["Удаленный Колл-центр", "Регламенты и стандарты"],
     "order": 5,
     "homepage": true,
     "href": "/ldpr"
@@ -190,11 +190,11 @@
     "href": "/chill-house"
   },
   {
-    "title": "SMM для кафе \"Брат Бурят\" <br/> с 200 до 12000 подписчиков",
+    "title": "СММ для кафе \"Брат Бурят\" <br/> с 200 до 12000 подписчиков",
     "preview": "BratBuryatSMMPreview.jpg",
     "video": false,
     "previewTextWhite": false,
-    "tags": ["SMM" ,"Создание контента", "Дизайн", "Дизайн-поддержка"],
+    "tags": ["СММ" ,"Создание контента", "Дизайн", "Дизайн-поддержка"],
     "order": 2,
     "homepage": true,
     "href": "/brat-buryat"

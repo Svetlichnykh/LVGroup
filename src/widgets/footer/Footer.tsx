@@ -14,7 +14,7 @@ const Footer = () => {
                         { href: '/cases', label: 'Проекты' },
                         { href: '/usluga/create-salesment', label: 'Продажи' },
                         { href: '/usluga/context-ads', label: 'Контекстная реклама' },
-                        { href: '/usluga/SMM', label: 'SMM' },
+                        { href: '/usluga/SMM', label: 'СММ' },
                         { href: '/usluga/website-creation', label: 'Веб-разработка' }
                     ].map(({ href, label }) => (
                         <li key={href} className={`flex items-center justify-center 2xl:px-footerNavListPadding max-2xl:p-footerNavListPaddingMaxl`}>

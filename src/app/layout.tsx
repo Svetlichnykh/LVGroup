@@ -23,15 +23,15 @@ const roboto = Roboto({
 
 export const metadata = {
     title: 'LV GROUP — продажи, сайты, реклама под ключ',
-    description: 'LV GROUP помогает бизнесу расти: аудит и развитие отделов продаж, создание сайтов, SEO и контекстная реклама, SMM и дизайн. Команда, которая делает результат!.',
+    description: 'LV GROUP помогает бизнесу расти: аудит и развитие отделов продаж, создание сайтов, СЕО и контекстная реклама, СММ и дизайн. Команда, которая делает результат!.',
     applicationName: 'LV Group',
     authors: [{ name: 'Продвигаем бизнес — от маркетинга до продаж' }],
     creator: 'Boris (bsleonov@gmail.com)',
     publisher: 'LV Group',
     keywords: [
         'аудит отдела продаж', 'создание сайтов', 'контекстная реклама',
-        'SMM продвижение', 'SEO продвижение', 'маркетинговое сопровождение',
-        'фирменный стиль', 'фотосессии', 'видеосъемка', 'call-центр под ключ'
+        'СММ продвижение', 'СЕО продвижение', 'маркетинговое сопровождение',
+        'фирменный стиль', 'фотосессии', 'видеосъемка', 'Колл-центр под ключ'
     ],
     robots: {
         index: true,
@@ -40,7 +40,7 @@ export const metadata = {
     metadataBase: new URL('https://grouplv.ru'),
     openGraph: {
         title: 'LV Group - команда, которая делает результат!',
-        description: 'Отделы продаж, создание сайтов, контекстная реклама, дизайн, SMM.',
+        description: 'Отделы продаж, создание сайтов, контекстная реклама, дизайн, СММ.',
         url: 'https://grouplv.ru',
         siteName: 'LV Group',
         images: [
@@ -57,7 +57,7 @@ export const metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'LV Group - команда, которая делает результат!',
-        description: 'Отделы продаж, создание сайтов, контекстная реклама, дизайн, SMM.',
+        description: 'Отделы продаж, создание сайтов, контекстная реклама, дизайн, СММ.',
         site: '@lvgroup',
         images: [
             'https://opengraph.b-cdn.net/production/images/4b778b81-5173-45ae-8a48-cec9a566e529.jpg?token=FI-tZi6fkA4LbV_D4i1GOR8Nbf_JcWFOvff_kB9XfWM&height=1200&width=1200&expires=33281589971',

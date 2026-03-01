@@ -112,7 +112,7 @@ const Welcome = () => {
                             <Link
                                 href="/usluga/SMM"
                                 className="text-welcomeLink max-sm:text-[30px] font-medium font-railway hover:text-mainColor duration-300">
-                                SMM
+                                СММ
                             </Link>
                         </li>
                     </ul>
