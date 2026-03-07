@@ -9,7 +9,7 @@ export default function Home() {
             <Welcome />
             <CasesList onlyHomePage={true} />
             <ServicesListComponent />
-            <Order />
+            <Order nmt={true} />
         </>
     );
 }

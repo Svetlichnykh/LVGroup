@@ -16,9 +16,10 @@ interface CustomerInfoProps {
     tags: string[];
     technologies?: Technology[];
     descriptions?: string[];
+    blackBackground?: boolean;
 }
 
-const CustomerInfo = ({title, logo, mobileLogo = logo, tags, technologies, descriptions, whiteBackground = false}: CustomerInfoProps) => {
+const CustomerInfo = ({title, logo, mobileLogo = logo, tags, technologies, descriptions, whiteBackground = false, blackBackground = false}: CustomerInfoProps) => {
 
 // Мапа тегов к href
     const tagLinksMap = new Map<string, string>();
@@ -38,7 +39,7 @@ const CustomerInfo = ({title, logo, mobileLogo = logo, tags, technologies, descr
                     <div className={`flex justify-between`}>
                         <h2 className={`max-sm:w-full text-customerTitleSize leading-customerTitleLeading w-3/5`}>{title}</h2>
                         <Image
-                            className={`h-[150px] 2xl:hidden ${!whiteBackground && "max-2xl:mr-[35px] max-lg:mr-[5px]"} max-sm:mb-0 max-sm:hidden ${whiteBackground && "bg-white p-[4] rounded-xl"}`}
+                            className={`h-[150px] 2xl:hidden ${!whiteBackground || !blackBackground && "max-2xl:mr-[35px] max-lg:mr-[5px]"} max-sm:mb-0 max-sm:hidden ${whiteBackground && "bg-white p-[4] rounded-xl"} ${blackBackground && "bg-black p-[4] rounded-xl"}`}
                             src={`/${mobileLogo}`}
                             alt={`лого заказчика`}
                             width={180} height={180}/>
@@ -84,7 +85,7 @@ const CustomerInfo = ({title, logo, mobileLogo = logo, tags, technologies, descr
 
                     <div className={`w-full flex gap-[30px] items-center max-xl:flex-col`}>
                         <Image
-                            className={`w-[250px] 2xl:absolute 2xl:top-0 2xl:w-customerImageWidth ${!whiteBackground && "pr-[20px]"} max-2xl:hidden max-sm:mb-0 max-sm:block max-sm:w-3/4 h-auto CustomerImage max-sm:pr-0 ${whiteBackground && "bg-white py-3 px-2 rounded-xl"}`}
+                            className={`w-[250px] 2xl:absolute 2xl:top-0 2xl:w-customerImageWidth ${(!whiteBackground || !blackBackground) && "pr-[20px]"} max-2xl:hidden max-sm:mb-0 max-sm:block max-sm:w-3/4 h-auto CustomerImage max-sm:pr-0 ${whiteBackground && "bg-white py-3 px-2 rounded-xl"} ${blackBackground && "bg-black py-3 px-2 rounded-xl"}`}
                             src={`/${logo}`}
                             alt={`лого заказчика`}
                             width={250} height={250}/>

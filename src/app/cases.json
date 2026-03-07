@@ -1,5 +1,65 @@
 [
   {
+    "title": "Восток-Сервис: 184 конверсии по 179₽",
+    "preview": "VostokServicePreview.png",
+    "video": false,
+    "previewTextWhite": false,
+    "tags": ["Контекстная реклама"],
+    "order": 27,
+    "homepage": false,
+    "href": "/vostok-service"
+  },
+  {
+    "title": "МинПромТорг: презентация для губернатора",
+    "preview": "MinPromTorgPreview.jpg",
+    "video": false,
+    "previewTextWhite": true,
+    "tags": ["Дизайн" ,"Разработка фирменного стиля", "Дизайн-поддержка"],
+    "order": 26,
+    "homepage": false,
+    "href": "/min-prom-torg"
+  },
+  {
+    "title": "Лайф Клиник: Лид в косметологии за 520₽",
+    "preview": "",
+    "video": true,
+    "previewTextWhite": true,
+    "tags": ["Контекстная реклама"],
+    "order": 25,
+    "homepage": false,
+    "href": "/life-clinic"
+  },
+  {
+    "title": "Имиджевый сайт барбершопа NORDMEN",
+    "preview": "NordmenPreview.mp4",
+    "video": true,
+    "previewTextWhite": true,
+    "tags": ["Создание сайтов", "Техническая поддержка", "Дизайн", "Фотосессии"],
+    "order": 24,
+    "homepage": false,
+    "href": "/nordmen"
+  },
+  {
+    "title": "Ламарк-Центр: 164 лида по 269₽",
+    "preview": "LamarkContextPreview.JPG",
+    "video": false,
+    "previewTextWhite": true,
+    "tags": ["Контекстная реклама"],
+    "order": 23,
+    "homepage": false,
+    "href": "/lamark-context"
+  },
+  {
+    "title": "БЕЗОПАСНОСТЬ+ : одностраничный сайт под контекстную рекламу",
+    "preview": "SafetyPlusPreview.JPG",
+    "video": false,
+    "previewTextWhite": true,
+    "tags": ["Создание сайтов", "Техническая поддержка", "Дизайн"],
+    "order": 22,
+    "homepage": false,
+    "href": "/safety-plus"
+  },
+  {
     "title": "Обновление и редизайн сайта ФРП Хабаровского края",
     "preview": "frpPreview.jpg",
     "video": false,

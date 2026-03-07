@@ -19,7 +19,7 @@ const CasesPage = () => {
         <>
             <div className="cases-container mt-[50px] max-md:mt-[100px]">
                 <CasesListWrapper onlyHomePage={false} disableSeeAll={true} />
-                <Order/>
+                <Order nmt={true} />
             </div>
         </>
     );
