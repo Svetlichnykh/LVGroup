@@ -69,7 +69,7 @@ const ChixxInk = () => {
                         {
                             name: "Общий бюджет",
                             value: "39",
-                            description: "тыс. ₽",
+                            description: "тыс.",
                         },
                         {
                             name: "Всего конверсий",

@@ -6,7 +6,7 @@
     "previewTextWhite": false,
     "tags": ["Контекстная реклама"],
     "order": 27,
-    "homepage": false,
+    "homepage": true,
     "href": "/vostok-service"
   },
   {
@@ -16,17 +16,17 @@
     "previewTextWhite": true,
     "tags": ["Дизайн" ,"Разработка фирменного стиля", "Дизайн-поддержка"],
     "order": 26,
-    "homepage": false,
+    "homepage": true,
     "href": "/min-prom-torg"
   },
   {
     "title": "Лайф Клиник: Лид в косметологии за 520₽",
-    "preview": "",
+    "preview": "LifeClinicPreview.mp4",
     "video": true,
     "previewTextWhite": true,
     "tags": ["Контекстная реклама"],
     "order": 25,
-    "homepage": false,
+    "homepage": true,
     "href": "/life-clinic"
   },
   {
@@ -36,7 +36,7 @@
     "previewTextWhite": true,
     "tags": ["Создание сайтов", "Техническая поддержка", "Дизайн", "Фотосессии"],
     "order": 24,
-    "homepage": false,
+    "homepage": true,
     "href": "/nordmen"
   },
   {
@@ -46,7 +46,7 @@
     "previewTextWhite": true,
     "tags": ["Контекстная реклама"],
     "order": 23,
-    "homepage": false,
+    "homepage": true,
     "href": "/lamark-context"
   },
   {
@@ -56,7 +56,7 @@
     "previewTextWhite": true,
     "tags": ["Создание сайтов", "Техническая поддержка", "Дизайн"],
     "order": 22,
-    "homepage": false,
+    "homepage": true,
     "href": "/safety-plus"
   },
   {
@@ -66,7 +66,7 @@
     "previewTextWhite": true,
     "tags": ["Создание сайтов", "Техническая поддержка", "Дизайн"],
     "order": 21,
-    "homepage": false,
+    "homepage": true,
     "href": "/frp"
   },
   {
@@ -76,7 +76,7 @@
     "previewTextWhite": true,
     "tags": ["Удаленный Колл-центр", "Регламенты и стандарты"],
     "order": 20,
-    "homepage": false,
+    "homepage": true,
     "href": "/green-qzin"
   },
   {

@@ -7,7 +7,7 @@ import {useTheme} from "next-themes";
 interface CustomerReviewProps {
     photo?: string;
     name: string;
-    rank?: string;
+    rank?: string | string[];
     text: string | string[] ;
 }
 
@@ -35,7 +35,14 @@ const CustomerReview = ({photo, name, rank, text}: CustomerReviewProps) => {
                             )}
                             <div className={`flex flex-col justify-center`}>
                                 <p className={`mb-[5px] text-[14px]`}>{name}</p>
-                                <p className={`text-[12px] text-gray-500`}>{rank}</p>
+                                <p className={`text-[12px] text-gray-500`}>
+                                    {Array.isArray(rank) ? (
+                                        rank.map((subItem, subIndex) => <span key={subIndex}>{subItem} <br/></span>)
+                                    ) : (
+                                    <span>{rank}</span>
+                                    )}
+                                </p>
+
                             </div>
                         </div>
                     </div>
